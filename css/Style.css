@@ -1,0 +1,50 @@
+body{
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body
+{
+    background: url("https://o.remove.bg/downloads/39ad25ac-e6e7-46b7-aabb-5ffe5f76885d/png-clipart-green-snake-character-snakes-and-ladders-drawing-snake-game-animals-removebg-preview.png");
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: right 25vw, top 5vw;
+    background-color: rgb(61, 212, 81);
+    
+}
+
+#board{
+    background: linear-gradient(rgb(0, 255, 115));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18 , 1fr);
+    grid-template-columns: repeat(18 , 1fr);
+    position: left;
+
+}
+
+.head{
+    background-color: red;
+    border: 2px solod purple;
+    transform: scale(1.02);
+
+}
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
+
+
+}
+.food{
+     background: linear-gradient(red purple);
+     border: 25vmin solid black;
+     border-radius: 8px;
+}
